@@ -1,0 +1,52 @@
+body{
+    background-color: #404040;
+}
+/*Color Theme Colors: f6f5f5 d3e0ea 1687a7 276678*/
+
+.rating {
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.like,
+.dislike {
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.dislike:hover,
+.like:hover {
+  color: #2EBDD1;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.active {
+  color: #2EBDD1;
+}
+
+.whiteText {
+  color: #f0f0f0;
+}
+
+.textArea {
+  padding: 10px;
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+  background-color: #276678;
+}
+
+.chatBoxes {
+  flex:1;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #f6f5f5;
+}
